@@ -26,7 +26,7 @@ var me = {
 	},
 	getGithub: function(){
 
-		return  'https://github.com/Flyette' + this.github;
+		return  'https://github.com/' + this.github;
 
 	},
 	setGithub: function(g){
