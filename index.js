@@ -2,7 +2,7 @@ var me = {
 	name: 'Sehli',
 	last_name: 'Hayate',
 	birthday: '06/04/1984',
-	github: 'https://github.com/Flyette',
+	github: 'Flyette',
 	occupation: 'Web-Développeur',
 	
 	getFullName: function(){
@@ -25,7 +25,8 @@ var me = {
 		this[x] = y;
 	},
 	getGithub: function(){
-		return this.getGithub;
+
+		return  'https://github.com/Flyette' + this.github;
 
 	},
 	setGithub: function(g){
@@ -38,12 +39,13 @@ var me = {
 	},
 	
 };
-console.log(me);
-console.log(me.getFullName());
-console.log(me.getOccupation());
-me.setName = "bidule";
-console.log(me);
-console.log(me.getInfos());
-me.setField('github','https://github.com/Flyette');
-console.log(me.getField());
-
+//console.log(me);
+//console.log(me.getFullName());
+//console.log(me.getOccupation());
+//me.setName = "bidule";
+//console.log(me);
+//console.log(me.getInfos());
+//me.setField('github','Flyette');
+//console.log(me.getField());
+console.log(me.github);
+console.log(me.getGithub());
