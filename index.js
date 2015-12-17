@@ -3,7 +3,8 @@ var me = {
 	last_name: 'Hayate',
 	birthday: '06/04/1984',
 	github: 'Flyette',
-	occupation: 'Web-Développeur',
+	occupation: 'Web-
+	Développeur',
 	
 	getFullName: function(){
 		return ["Bonjour, je m'appelle ", this.name , " " , this.last_name,"."].join('');
